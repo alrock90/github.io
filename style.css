@@ -1,0 +1,111 @@
+* { 
+    font-family: sans-serif;
+  }
+
+  
+  nav{
+    box-sizing:border-box;
+    background-color:black;
+    display: inline-block;
+    position:fixed;
+    text-align:center;
+    width:100%;
+    top:0px;
+    left:0px;
+    z-index:2;
+    overflow-y: auto;
+  }
+  body{
+    position:relative;
+    left:0px;
+    margin:0;
+  }
+  
+  .nav-link a{
+    box-sizing:border-box;
+    display: inline-block;
+    color:white;  
+    text-align:center;
+    transition: font-size .5s ease; 
+    transition: background-color 1s ease; 
+    padding:10px 60px;
+    border:1px solid white;
+    text-decoration:none;
+    margin:5px 100px;
+  }
+  .nav-link a:hover{
+    cursor: pointer;
+    /*font-size: 25px;*/
+    padding:10px 70px;
+    background-color: rgb(107, 136, 101);
+  }
+  main{
+    position:relative;
+    text-align: center;
+    height: 500px;
+    top: 0px;
+    left:0px;
+    width: 100%;
+    background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-sports-basketball-backplane-picture-image_780138.jpg");
+    background-position: center top;
+    background-size: cover;
+
+    border:3px solid black;
+  }
+  .banner-text{
+    position: relative;
+    top: 50%;
+    letter-spacing:5px;
+  }
+
+
+  .colorbox_1{  
+    margin: 0 auto; 
+    text-align: center;
+    background-color: darkslategray;
+    min-height: 300px;
+  }
+  .colorbox_2{  
+    margin: 0 auto; 
+    text-align: center;
+    background-color: rgb(205, 225, 193);
+    min-height: 300px;
+   
+  }
+ 
+  .box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+  }
+  .text_img{   
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+  }
+
+  .text_img p{
+    text-align: center;
+  }
+  
+
+  #img_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 440px;
+  }
+
+  #img_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 440px;
+  }
+  
+  
+  
+  
+  

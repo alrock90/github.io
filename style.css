@@ -83,7 +83,8 @@
   .text_img{   
     display: flex;
     align-items: center;
-    justify-content: center;   
+    justify-content: center; 
+    margin:20px;  
   }
 
   .text_img p{
@@ -91,21 +92,13 @@
   }
   
 
-  #img_left{
+  .img_box{
     display: flex;
     align-items: center;
     justify-content: center;
     max-height: 440px;
   }
 
-  #img_right{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-height: 440px;
-  }
-  
-  
   
   
   

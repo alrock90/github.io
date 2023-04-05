@@ -5,11 +5,13 @@ font-family: 'Roboto Mono', monospace;
 
 html {
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 16px;  
+  box-sizing: border-box;
 }
 
 
 .main-content {  
+  box-sizing: border-box;
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
   left:0;

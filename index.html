@@ -1,42 +1,110 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Basic Web Page</title>  
-  <link href="style.css" rel="stylesheet">
-</head>
-<body>
-  <nav>
-    <ul class="nav-link">
-      <a href="#">test 1</a>
-      <a href="#">test 2</a>
-      <a href="#">test 3</a>
-    </ul>
-  </nav>
-  <main class="banner">
-    <div class="banner-text">
-      <h1>Hello World!</h1>
+  <head>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <title>My Company</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani&family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="content">
+        <a class="desktop logo">LogoCompany</a>
+        <nav class="desktop">
+          <ul>
+            <li><a href="#">menu 1</a></li>
+            <li><a href="#">menu 2</a></li>
+            <li><a href="#">menu 3</a></li>
+            <li><a href="#">menu 4</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="main-content">
+      <div class="banner">
+        <div class="content-banner">
+          <div class="banner-text">
+            <h2>My Company</h2>
+            <h3>subtitle my company</h3>
+          </div>
+        </div>
+      </div>
+      <!-- Features Section -->
+      <div id="features-section">
+        <div class="description">
+          <h2>test</h2>
+          <h3>A mission statement or brief description of the company.</h3>
+        </div>
+        <div class="feature">
+          <div class="image-container">
+            <img
+              src="https://cdn.pixabay.com/photo/2015/02/02/11/09/office-620822_960_720.jpg"
+            />
+            <h2>Advanced, automatic, instant</h2>
+          </div>
+          <div class="image-container">
+            <img
+              src="https://cdn.pixabay.com/photo/2012/11/28/09/08/mars-67522_960_720.jpg"
+            />
+            <h2>Advanced, automatic, instant</h2>
+          </div>
+          <div class="image-container">
+            <img
+              src="https://cdn.pixabay.com/photo/2014/09/20/13/52/board-453758_960_720.jpg"
+            />
+            <h2>Advanced, automatic, instant</h2>
+          </div>
+        </div>
+      </div>
+      <!-- Team Section -->
+      <div class="team-section">
+        <h2>Our Team</h2>
+        <div class="team-background">
+          <div class="team">
+            <div class="worker">
+              <img
+                src="https://cdn.pixabay.com/photo/2014/09/20/13/52/board-453758_960_720.jpg"
+              />
+              <h2>name 1</h2>
+              <h1>position</h1>
+            </div>
+            <div class="worker">
+              <img
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80"
+              />
+              <h2>name 2</h2>
+              <h1>position</h1>
+            </div>
+            <div class="worker">
+              <img
+                src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+              />
+              <h2>name 3</h2>
+              <h1>position</h1>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </main>
-  <section class="colorbox_1">
-    <div class="box">
-        <img class="img_box" src="https://png.pngtree.com/background/20210710/original/pngtree-badminton-sport-hd-background-picture-image_1024474.jpg" alt="footbal field" id="fieldImage">
-        <p class="text_img">Lo que queremos hacer es colocar este texto al lado derecho de la imagen, algo así como se observa en periódicos o revistas.</p>          
-    </div>       
-  </section>
 
-  <section class="colorbox_2">
-    <div class="box">
-      <div class="text_img">
-            <p>Lo que queremos hacer es colocar este texto al lado derecho de la imagen, algo así como se observa en periódicos o revistas.</p>       
-            </div>     
-        <img class="img_box" src="https://png.pngtree.com/background/20210710/original/pngtree-badminton-sport-hd-background-picture-image_1024474.jpg" alt="footbal field" >
-        
-              
-    </div>       
-  </section>
-
-
-
-  <script src="script.js"></script>
-</body>
+    <footer>
+      <div class="container">
+        <div id="left">
+          <h3>My Company</h3>
+          <h2>Adresss</h2>
+        </div>
+        <div id="right">
+          <h3>Contact</h3>
+          <h2>Adresss</h2>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

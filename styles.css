@@ -3,13 +3,13 @@ font-family: 'Rajdhani', sans-serif;
 font-family: 'Roboto Mono', monospace;
 */
 
-html {
+html,body {
   font-family: sans-serif;
   font-size: 16px;
 }
 
 
-.main-content {
+.main-content {  
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
   left:0;
@@ -39,6 +39,7 @@ h3{
 
 /* Header */
 header{
+   box-sizing: border-box;
   position:fixed;
   height:5.3125rem;
   width:100%;
@@ -91,7 +92,7 @@ header li{
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center;
-  padding: 2rem 5%;
+  
   background-color: #61cabc; /*'#f3f3f3 #bce9d1; #61cabc;*/
   width: 100%;
   margin: 0 auto;
@@ -120,7 +121,6 @@ header li{
 
 /*Features */
 #features-section {
-  padding: 2rem 5%;
   background-color: #61cabc; /*'#f3f3f3 #bce9d1; #61cabc;*/
   width: 100%;
   margin: 0 auto;
@@ -176,9 +176,8 @@ header li{
 
 /*Team */
 .team-section{
- 
+ padding:2rem 0;
   background-color:#bce9d1; /*'#f3f3f3 #bce9d1; #61cabc;*/
-  padding: 2rem 5%;
   width:100%;
   height:auto;
   text-align:center;
@@ -190,6 +189,7 @@ header li{
    justify-content:space-around;
    flex-wrap:wrap;
    padding:1rem;
+   margin:2rem;
    min-height:33rem;   
   align-items: center; 
   }
@@ -214,7 +214,7 @@ header li{
   height:5rem;
   width:100%;
   background-color: #0B2447;  /*#bce9d1; #61cabc;*/ 
-  padding: 0.5rem 5%;
+
  }
 
  
